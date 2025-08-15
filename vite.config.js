@@ -10,6 +10,7 @@ export default defineConfig({
     input: {
       main: resolve(fileURLToPath(new URL('.', import.meta.url)), 'index.html'),
       replay: resolve(fileURLToPath(new URL('.', import.meta.url)), 'replay.html'),
+      pp: resolve(fileURLToPath(new URL('.', import.meta.url)), 'pp.html'),
       // Add more endpoints here as needed
       // course: resolve(__dirname, 'course.html'),
       // signup: resolve(__dirname, 'signup.html'),
